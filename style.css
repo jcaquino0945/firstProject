@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#headerSearch {
+    border: 1px solid white;
+    color: white;
+}
+#headerSearch:hover {
+    background-color: gray;
+}
+#headerLogo {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cards {
+    padding-top: 80px;
+}
+.card img {
+    display: grid;
+    padding-top: 8px;
+    align-self: center;
+    height: 180px;
+    width: 200px;
+}
+
+@media (max-width: 768px) { 
+    #carouselFadeExampleIndicators {
+        display: none;
+    }
+ }
+
+.card-body a:hover {
+    background-color: white;
+    color: black;
+}
+.card {
+    text-align: center;
+}
+#recent-news {
+    margin-top: 90px;
+    background-color: rgb(83, 83, 83);
+}
+#recentNewsHead {
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+#media {
+    padding-bottom: 60px;
+}
